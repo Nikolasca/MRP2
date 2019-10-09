@@ -50,6 +50,7 @@ public class Principal extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Sistema De Control De Producción");
 
         jButton1.setText("Generar Excel");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
