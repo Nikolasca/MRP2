@@ -64,6 +64,7 @@ int linea3 = 0;
                   productotipo1.setL2(true);
                    productotipo1.setL3(true);
                    productotipo1.setTipo(1);
+                   productotipo1.setId(100+i);
                    producto1.add(productotipo1);
            
            }
@@ -78,6 +79,7 @@ int linea3 = 0;
                  productotipo2.setL1(true);
                   productotipo2.setL2(true);
                    productotipo2.setL3(false);
+                     productotipo2.setId(200+i);
                    productotipo2.setTipo(2);
                    producto2.add(productotipo2);
            
@@ -93,6 +95,7 @@ int linea3 = 0;
                  productotipo2.setL1(true);
                   productotipo2.setL2(false);
                    productotipo2.setL3(true);
+                   productotipo2.setId(300+i);
                    productotipo2.setTipo(3);
                    producto3.add(productotipo2);
            

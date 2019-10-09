@@ -21,7 +21,7 @@ public class Producto {
     int duracion3;
 
     public Producto(int tipo, boolean et1, boolean et2, boolean et3) {
-        this.id = (int)(Math.random() * 100) + 1;
+        
         this.tipo=tipo;
         this.l1 = et1;
         this.l2 = et2;
